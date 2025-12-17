@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import AILeadEngine from "@/components/AILeadEngine";
 import Testimonials from "@/components/Testimonials";
+import VideoTestimonials from "@/components/VideoTestimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -15,6 +16,7 @@ const Index = () => {
         <Services />
         <AILeadEngine />
         <Testimonials />
+        <VideoTestimonials />
         <Contact />
       </main>
       <Footer />
