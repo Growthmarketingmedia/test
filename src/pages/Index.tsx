@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background pt-[7.5rem]">
+    <div className="min-h-screen bg-background pt-[117px]">
       <AnnouncementBar />
       <Header />
       <main>

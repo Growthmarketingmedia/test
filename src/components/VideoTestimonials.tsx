@@ -88,14 +88,14 @@ const VideoCard = ({ video, index }: { video: typeof videoTestimonials[0]; index
       </div>
 
       {/* Content */}
-      <div className="p-5">
+      <div className="p-5 bg-white">
         <span className="text-xs font-medium text-primary uppercase tracking-wider">
           {video.client}
         </span>
-        <h3 className="text-lg font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
+        <h3 className="text-lg font-semibold mt-2 mb-2 group-hover:text-primary transition-colors text-slate-900">
           {video.title}
         </h3>
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-slate-600">
           {video.description}
         </p>
       </div>
@@ -105,21 +105,17 @@ const VideoCard = ({ video, index }: { video: typeof videoTestimonials[0]; index
 
 const VideoTestimonials = () => {
   return (
-    <section className="py-32 relative overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-card/30 to-background" />
-      <div className="absolute inset-0 bg-gradient-radial opacity-50" />
-
+    <section className="py-32 relative overflow-hidden bg-white border-y border-slate-100">
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-semibold text-sm tracking-wider uppercase mb-4 block">
+          <span className="text-primary font-bold text-sm tracking-wider uppercase mb-4 block">
             Video Testimonials
           </span>
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">
+          <h2 className="text-4xl md:text-6xl font-extrabold mb-6 text-slate-900">
             Real Results, <span className="text-gradient">Real Stories</span>
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xl text-slate-600">
             Watch our clients share their experiences and the incredible results they've achieved with Growth Marketing Media 🎥
           </p>
         </div>
@@ -133,7 +129,7 @@ const VideoTestimonials = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xl text-slate-600 font-medium">
             Want to be our next success story? Let's talk.
           </p>
         </div>
