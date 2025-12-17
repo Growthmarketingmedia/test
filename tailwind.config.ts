@@ -15,6 +15,7 @@ export default {
     extend: {
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
+        display: ["Outfit", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
