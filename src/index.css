@@ -15,8 +15,8 @@
     --popover: 0 0% 7%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 142 71% 45%;
-    --primary-foreground: 0 0% 2%;
+    --primary: 113 80% 32%;
+    --primary-foreground: 0 0% 98%;
 
     --secondary: 0 0% 12%;
     --secondary-foreground: 0 0% 98%;
@@ -24,25 +24,25 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 142 71% 45%;
-    --accent-foreground: 0 0% 2%;
+    --accent: 113 80% 32%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 142 71% 45%;
+    --ring: 113 80% 32%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --glow-primary: 142 71% 45%;
-    --gradient-primary: linear-gradient(135deg, hsl(142, 71%, 45%) 0%, hsl(142, 71%, 35%) 100%);
+    --glow-primary: 113 80% 32%;
+    --gradient-primary: linear-gradient(135deg, hsl(113, 80%, 32%) 0%, hsl(113, 80%, 25%) 100%);
     --gradient-dark: linear-gradient(180deg, hsl(0, 0%, 4%) 0%, hsl(0, 0%, 7%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(0, 0%, 8%) 0%, hsl(0, 0%, 5%) 100%);
-    --shadow-glow: 0 0 60px hsl(142 71% 45% / 0.15);
-    --shadow-glow-sm: 0 0 30px hsl(142 71% 45% / 0.1);
+    --shadow-glow: 0 0 60px hsl(113 80% 32% / 0.2);
+    --shadow-glow-sm: 0 0 30px hsl(113 80% 32% / 0.15);
   }
 
   .dark {
@@ -102,7 +102,7 @@
   }
 
   .bg-gradient-radial {
-    background: radial-gradient(ellipse at center top, hsl(142 71% 45% / 0.08) 0%, transparent 60%);
+    background: radial-gradient(ellipse at center top, hsl(113 80% 32% / 0.12) 0%, transparent 60%);
   }
 }
 
@@ -117,10 +117,10 @@
 
 @keyframes pulseGlow {
   0%, 100% {
-    box-shadow: 0 0 30px hsl(142 71% 45% / 0.2);
+    box-shadow: 0 0 30px hsl(113 80% 32% / 0.25);
   }
   50% {
-    box-shadow: 0 0 60px hsl(142 71% 45% / 0.4);
+    box-shadow: 0 0 60px hsl(113 80% 32% / 0.5);
   }
 }
 
@@ -159,5 +159,5 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(142 71% 45% / 0.5);
+  background: hsl(113 80% 32% / 0.6);
 }
