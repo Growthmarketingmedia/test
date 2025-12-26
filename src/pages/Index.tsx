@@ -8,6 +8,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Stats from "@/components/Stats";
 import AIRevolution from "@/components/AIRevolution";
+import GrowthPath from "@/components/GrowthPath";
 
 const Index = () => {
   return (
@@ -27,6 +28,7 @@ const Index = () => {
             className="w-full h-auto object-cover"
           />
         </section>
+        <GrowthPath />
         <Testimonials />
         <VideoTestimonials />
         <Contact />
