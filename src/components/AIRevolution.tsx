@@ -45,6 +45,15 @@ const AIRevolution = () => {
                         </Card>
                     ))}
                 </div>
+
+                {/* Full-width image */}
+                <div className="mt-16 w-full">
+                    <img
+                        src="/images/image (2).png"
+                        alt="AI Revolution in action"
+                        className="w-full h-auto object-cover rounded-2xl shadow-lg"
+                    />
+                </div>
             </div>
         </section>
     );
