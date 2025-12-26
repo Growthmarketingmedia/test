@@ -12,7 +12,7 @@ import GrowthPath from "@/components/GrowthPath";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background pt-[117px]">
+    <div className="min-h-screen bg-background pt-20">
       <AnnouncementBar />
       <Header />
       <main>
