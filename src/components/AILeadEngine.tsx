@@ -139,13 +139,13 @@ const AILeadEngine = () => {
         </div>
 
         {/* Benefits */}
-        <div className="bg-card rounded-3xl border border-border p-12">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="bg-card rounded-3xl border border-border p-6 md:p-12">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
-              <h3 className="text-3xl font-bold mb-6">
+              <h3 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">
                 Transform Your Lead Generation
               </h3>
-              <p className="text-muted-foreground mb-8">
+              <p className="text-muted-foreground mb-6 md:mb-8">
                 Stop losing leads to slow response times. Our ChatGPT Lead Engine works around the clock, engaging every visitor and turning them into qualified opportunities.
               </p>
               <Button variant="hero" size="xl">
@@ -153,7 +153,7 @@ const AILeadEngine = () => {
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
