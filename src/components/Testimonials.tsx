@@ -74,7 +74,7 @@ const Testimonials = () => {
               </div>
 
               {/* Quote */}
-              <Quote className="w-8 h-8 text-white/20 mb-4" />
+              <Quote className="w-8 h-8 text-muted-foreground/20 mb-4" />
 
               {/* Content */}
               <p className="text-muted-foreground mb-6 leading-relaxed line-clamp-5">
