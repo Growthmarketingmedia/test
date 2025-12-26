@@ -1,8 +1,9 @@
 const Stats = () => {
     return (
-        <section className="relative py-8 overflow-hidden">
-            {/* Background Effects - grid only */}
-            <div className="absolute inset-0 bg-grid opacity-30" />
+        <section className="py-16 border-y border-border/50 relative overflow-hidden">
+            {/* Background gradient */}
+            <div className="absolute inset-0 bg-gradient-to-b from-card/50 via-background to-card/50" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
