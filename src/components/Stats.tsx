@@ -1,6 +1,6 @@
 const Stats = () => {
     return (
-        <section className="relative py-8 border-y border-border/50 overflow-hidden">
+        <section className="relative py-8 overflow-hidden">
             {/* Background Effects - same as Hero */}
             <div className="absolute inset-0 bg-grid opacity-30" />
             <div className="absolute inset-0 bg-gradient-radial" />
