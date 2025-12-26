@@ -1,9 +1,8 @@
 const Stats = () => {
     return (
         <section className="relative py-8 overflow-hidden">
-            {/* Background Effects - same as Hero */}
+            {/* Background Effects - grid only */}
             <div className="absolute inset-0 bg-grid opacity-30" />
-            <div className="absolute inset-0 bg-gradient-radial" />
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
