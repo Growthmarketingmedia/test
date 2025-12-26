@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 const Hero = () => {
-  return <section id="home" className="relative min-h-[calc(100vh-117px)] flex items-center justify-center overflow-hidden py-12 md:py-0">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden py-12 md:py-0">
     {/* Background Effects */}
     <div className="absolute inset-0 bg-grid opacity-30" />
     <div className="absolute inset-0 bg-gradient-radial" />
