@@ -44,7 +44,7 @@ const Testimonials = () => {
     <section id="results" className="py-32 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-card/20 to-background" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -74,7 +74,7 @@ const Testimonials = () => {
               </div>
 
               {/* Quote */}
-              <Quote className="w-8 h-8 text-primary/20 mb-4" />
+              <Quote className="w-8 h-8 text-white/20 mb-4" />
 
               {/* Content */}
               <p className="text-muted-foreground mb-6 leading-relaxed line-clamp-5">
