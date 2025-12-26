@@ -1,6 +1,6 @@
 const Stats = () => {
     return (
-        <section className="py-16 border-y border-border/50 relative overflow-hidden">
+        <section className="py-12 border-y border-border/50 relative overflow-hidden">
             {/* Background gradient */}
             <div className="absolute inset-0 bg-gradient-to-b from-card/50 via-background to-card/50" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
