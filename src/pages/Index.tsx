@@ -19,6 +19,14 @@ const Index = () => {
         <Stats />
         <AIRevolution />
         <AILeadEngine />
+        {/* Full-width image section */}
+        <section className="w-full">
+          <img
+            src="/images/image (2).png"
+            alt="Featured content"
+            className="w-full h-auto object-cover"
+          />
+        </section>
         <Testimonials />
         <VideoTestimonials />
         <Contact />
