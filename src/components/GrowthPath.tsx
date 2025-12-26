@@ -95,7 +95,7 @@ const GrowthPath = () => {
                             </div>
                         </div>
 
-                        <button className="w-full py-4 px-6 rounded-xl bg-primary text-gray-900 font-semibold hover:bg-primary/90 transition-all duration-300 flex items-center justify-center gap-2 group">
+                        <button className="w-full py-4 px-6 rounded-xl bg-primary text-white font-semibold hover:bg-primary/90 transition-all duration-300 flex items-center justify-center gap-2 group">
                             Apply Now
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </button>

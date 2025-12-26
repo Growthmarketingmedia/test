@@ -39,7 +39,7 @@ const AILeadEngine = () => {
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-card/50 via-background to-card/50" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-20">
@@ -72,7 +72,7 @@ const AILeadEngine = () => {
                     <p className="text-sm">Hi! 👋 I'm the Growth Marketing AI assistant. How can I help you grow your business today?</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-3 justify-end">
                   <div className="bg-primary text-primary-foreground rounded-2xl rounded-tr-sm p-4 max-w-xs">
                     <p className="text-sm">I need help getting more customers for my roofing company</p>
@@ -149,7 +149,7 @@ const AILeadEngine = () => {
                 Stop losing leads to slow response times. Our ChatGPT Lead Engine works around the clock, engaging every visitor and turning them into qualified opportunities.
               </p>
               <Button variant="hero" size="xl">
-                Get The AI Lead Engine
+                Schedule A Call
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </div>
