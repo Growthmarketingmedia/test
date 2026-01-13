@@ -41,7 +41,7 @@ const testimonials = [
 
 const TestimonialsV2 = () => {
   return (
-    <section id="results" className="py-32 relative overflow-hidden bg-white">
+    <section id="results" className="py-32 pb-48 relative overflow-hidden bg-white">
       {/* Background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
 
@@ -109,6 +109,13 @@ const TestimonialsV2 = () => {
             Join hundreds of businesses that have scaled with Growth Marketing Media
           </p>
         </div>
+      </div>
+
+      {/* Wave Divider - Light to Dark */}
+      <div className="wave-divider-light-dark">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1146.53,118.92,1080.71,111.31,985.66,92.83Z" className="shape-fill"></path>
+        </svg>
       </div>
     </section>
   );

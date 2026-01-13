@@ -1,29 +1,29 @@
-import AnnouncementBar from "@/components/AnnouncementBar";
-import Header from "@/components/Header";
+import HeaderV2 from "@/components/v2/HeaderV2";
 import HeroV2 from "@/components/v2/HeroV2";
+import ProofStripV2 from "@/components/v2/ProofStripV2";
 import AILeadEngineV2 from "@/components/v2/AILeadEngineV2";
-import TestimonialsV2 from "@/components/v2/TestimonialsV2";
+import ComparisonV2 from "@/components/v2/ComparisonV2";
+import OutcomesV2 from "@/components/v2/OutcomesV2";
+import QualificationV2 from "@/components/v2/QualificationV2";
 import VideoTestimonialsV2 from "@/components/v2/VideoTestimonialsV2";
-import ContactV2 from "@/components/v2/ContactV2";
-import Footer from "@/components/Footer";
-import Stats from "@/components/Stats";
-import AIRevolutionV2 from "@/components/v2/AIRevolutionV2";
 import GrowthPathV2 from "@/components/v2/GrowthPathV2";
+import FAQV2 from "@/components/v2/FAQV2";
+import Footer from "@/components/Footer";
 
 const V2 = () => {
     return (
         <div className="min-h-screen bg-background">
-            <AnnouncementBar />
-            <Header />
-            <main>
+            <HeaderV2 />
+            <main className="pt-20"> {/* Add padding for fixed header */}
                 <HeroV2 />
-                <Stats />
+                <ProofStripV2 />
                 <AILeadEngineV2 />
-                <AIRevolutionV2 />
-                <TestimonialsV2 />
+                <ComparisonV2 />
+                <OutcomesV2 />
+                <QualificationV2 />
                 <VideoTestimonialsV2 />
                 <GrowthPathV2 />
-                <ContactV2 />
+                <FAQV2 />
             </main>
             <Footer />
         </div>

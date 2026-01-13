@@ -169,3 +169,140 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(114 80% 32% / 0.6);
 }
+
+/* Landing Page Flow Styles */
+
+/* Wave Divider - Dark to Light */
+.wave-divider-dark-light {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 10;
+}
+
+.wave-divider-dark-light svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.wave-divider-dark-light .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* Wave Divider - Light to Dark */
+.wave-divider-light-dark {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 10;
+}
+
+.wave-divider-light-dark svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.wave-divider-light-dark .shape-fill {
+  fill: hsl(0 0% 4%);
+}
+
+/* Scroll Indicator Animation */
+@keyframes bounce-fade {
+
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+}
+
+.animate-bounce-fade {
+  animation: bounce-fade 2s ease-in-out infinite;
+}
+
+/* Scroll Reveal Animation */
+@keyframes scrollReveal {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-reveal {
+  animation: scrollReveal 0.8s ease-out forwards;
+}
+
+/* Section gradient overlays */
+.section-fade-top-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, hsl(0 0% 4%) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.section-fade-bottom-light {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to top, #FFFFFF 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.section-fade-bottom-dark {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to top, hsl(0 0% 4%) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Angle Divider */
+.angle-divider-light-dark {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to bottom right, transparent 49.5%, hsl(0 0% 4%) 50%);
+  z-index: 10;
+}
+
+.angle-divider-dark-light {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to bottom right, transparent 49.5%, #FFFFFF 50%);
+  z-index: 10;
+}

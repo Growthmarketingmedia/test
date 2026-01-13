@@ -1,113 +1,76 @@
-import { Check, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { TrendingUp, Trophy, Check } from "lucide-react";
 
 const GrowthPathV2 = () => {
     return (
-        <section className="py-24 bg-white">
-            <div className="container mx-auto px-4">
-                {/* Header */}
-                <div className="text-center max-w-4xl mx-auto mb-16">
-                    <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-                        Ready To Join Them? <span className="text-primary">Choose Your Path</span>
+        <section className="py-24 bg-background relative overflow-hidden">
+            {/* Background Effects */}
+            <div className="absolute inset-0 bg-grid opacity-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[100px]" />
+
+            <div className="container mx-auto px-4 relative z-10">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
+                        Pick Your <span className="text-gradient">Growth Goal</span>
                     </h2>
-                    <p className="text-xl text-gray-600">
-                        You've seen the results. Now it's your turn. Pick the package that fits your budget and goals — both deliver results, one just moves faster.
-                    </p>
+                    <p className="text-muted-foreground text-lg">Choose the path that matches your current business stage.</p>
                 </div>
 
-                {/* Pricing Cards */}
-                <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                    {/* Foundation Package */}
-                    <div className="relative p-8 rounded-2xl bg-white border border-gray-200 hover:border-primary/30 hover:shadow-xl transition-all duration-500">
-                        <div className="mb-6">
-                            <span className="text-sm text-gray-500 uppercase tracking-wider">OFFER A</span>
-                            <h3 className="text-3xl font-bold text-gray-900 mt-2">Foundation Package</h3>
-                            <p className="text-gray-600 mt-3">
-                                Perfect for contractors starting their digital journey without ad spend commitment
-                            </p>
+                <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    {/* Path 1: Stability */}
+                    <div className="bg-card border border-border rounded-3xl p-8 hover:border-primary/50 transition-all duration-300 relative group overflow-hidden">
+                        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-50" />
+
+                        <div className="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <TrendingUp className="w-8 h-8 text-blue-500" />
                         </div>
 
-                        <div className="space-y-4 mb-8">
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">AI ChatGPT Lead Qualification</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">Organic Marketing System</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">Local SEO Optimization</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">No Google Ads Required</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">LSA Integration Available</span>
-                            </div>
-                        </div>
+                        <h3 className="text-2xl font-bold text-foreground mb-2">Build Consistency</h3>
+                        <p className="text-muted-foreground mb-8">For contractors who want to stop the feast or famine cycle.</p>
 
-                        <button className="w-full py-4 px-6 rounded-xl border-2 border-gray-300 text-gray-900 font-semibold hover:border-primary hover:bg-primary/5 transition-all duration-300">
-                            Learn More
-                        </button>
+                        <ul className="space-y-4 mb-8">
+                            {["Consistent lead flow", "Fill your calendar", "Stop buying shared leads", "Predictable revenue"].map((item, i) => (
+                                <li key={i} className="flex gap-3 text-sm text-foreground/80">
+                                    <Check className="w-5 h-5 text-blue-500 shrink-0" /> {item}
+                                </li>
+                            ))}
+                        </ul>
+
+                        <Button variant="outline" className="w-full border-blue-500/20 hover:bg-blue-500/10 hover:text-blue-500 group-hover:border-blue-500/50">
+                            Start Building Consistency
+                        </Button>
                     </div>
 
-                    {/* Accelerator Package */}
-                    <div className="relative p-8 rounded-2xl bg-white border-2 border-primary hover:border-primary/80 hover:shadow-xl transition-all duration-500">
-                        {/* Most Popular Badge */}
-                        <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                            <span className="bg-primary text-gray-900 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
-                                Most Popular
-                            </span>
+                    {/* Path 2: Scale (Highlighted) */}
+                    <div className="bg-primary/5 border border-primary/20 rounded-3xl p-8 transition-all duration-300 relative group overflow-hidden shadow-2xl shadow-primary/5">
+                        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent" />
+                        <div className="absolute top-4 right-4 bg-primary text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Most Popular</div>
+
+                        <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <Trophy className="w-8 h-8 text-primary" />
                         </div>
 
-                        <div className="mb-6">
-                            <span className="text-sm text-gray-500 uppercase tracking-wider">OFFER B</span>
-                            <h3 className="text-3xl font-bold text-gray-900 mt-2">Accelerator Package</h3>
-                            <p className="text-gray-600 mt-3">
-                                For contractors ready to scale fast with full PPC and AI integration
-                            </p>
-                        </div>
+                        <h3 className="text-2xl font-bold text-foreground mb-2">Market Dominance</h3>
+                        <p className="text-muted-foreground mb-8">For established businesses ready to scale to $1M+.</p>
 
-                        <div className="space-y-4 mb-8">
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">Everything in Offer A</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">FREE PPC Management</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">Google Ads Campaign Setup</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">6-Month Growth Partnership</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-gray-900">Priority Support & Strategy</span>
-                            </div>
-                        </div>
+                        <ul className="space-y-4 mb-8">
+                            {["Aggressive expansion", "Automate sales follow-up", "Hire more crews", "Dominate local SEO"].map((item, i) => (
+                                <li key={i} className="flex gap-3 text-sm text-foreground/80">
+                                    <Check className="w-5 h-5 text-primary shrink-0" /> {item}
+                                </li>
+                            ))}
+                        </ul>
 
-                        <button className="w-full py-4 px-6 rounded-xl bg-primary text-white font-semibold hover:bg-primary/90 transition-all duration-300 flex items-center justify-center gap-2 group">
-                            Apply Now
-                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                        </button>
-
-                        <p className="text-xs text-gray-500 text-center mt-4">
-                            * Requires ad spend budget. Data shows PPC clients earn significantly more.
-                        </p>
+                        <Button variant="default" className="w-full shadow-lg shadow-primary/20 hover:shadow-primary/40">
+                            Start Dominating
+                        </Button>
                     </div>
                 </div>
             </div>
+
+
         </section>
     );
 };
 
 export default GrowthPathV2;
-
