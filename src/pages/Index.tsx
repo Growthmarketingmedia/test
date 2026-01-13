@@ -1,14 +1,15 @@
 import AnnouncementBar from "@/components/AnnouncementBar";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import AILeadEngine from "@/components/AILeadEngine";
-import Testimonials from "@/components/Testimonials";
-import VideoTestimonials from "@/components/VideoTestimonials";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Stats from "@/components/Stats";
-import AIRevolution from "@/components/AIRevolution";
-import GrowthPath from "@/components/GrowthPath";
+import Header from "@/components/landing/Header";
+import Hero from "@/components/landing/Hero";
+import ProofStrip from "@/components/landing/ProofStrip";
+import Mechanism from "@/components/landing/Mechanism";
+import OldVsNew from "@/components/landing/OldVsNew";
+import Outcomes from "@/components/landing/Outcomes";
+import Qualification from "@/components/landing/Qualification";
+import SocialProof from "@/components/landing/SocialProof";
+import FAQ from "@/components/landing/FAQ";
+import FinalCTA from "@/components/landing/FinalCTA";
+import Footer from "@/components/landing/Footer";
 
 const Index = () => {
   return (
@@ -17,13 +18,14 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        <Stats />
-        <AIRevolution />
-        <AILeadEngine />
-        <GrowthPath />
-        <Testimonials />
-        <VideoTestimonials />
-        <Contact />
+        <ProofStrip />
+        <Mechanism />
+        <OldVsNew />
+        <Outcomes />
+        <Qualification />
+        <SocialProof />
+        <FAQ />
+        <FinalCTA />
       </main>
       <Footer />
     </div>
