@@ -8,6 +8,7 @@ import Outcomes from "@/components/landing/Outcomes";
 import Qualification from "@/components/landing/Qualification";
 import SocialProof from "@/components/landing/SocialProof";
 import FAQ from "@/components/landing/FAQ";
+import Packages from "@/components/landing/Packages";
 import FinalCTA from "@/components/landing/FinalCTA";
 import Footer from "@/components/landing/Footer";
 
@@ -25,6 +26,7 @@ const Index = () => {
         <Qualification />
         <SocialProof />
         <FAQ />
+        <Packages />
         <FinalCTA />
       </main>
       <Footer />
