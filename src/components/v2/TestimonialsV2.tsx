@@ -39,23 +39,23 @@ const testimonials = [
   },
 ];
 
-const Testimonials = () => {
+const TestimonialsV2 = () => {
   return (
-    <section id="results" className="py-32 relative overflow-hidden">
+    <section id="results" className="py-32 relative overflow-hidden bg-white">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-card/20 to-background" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary font-semibold text-sm tracking-wider uppercase mb-4 block">
-            Client Results
+            Still Not Convinced?
           </span>
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            We <span className="text-gradient">BLOW UP</span> Businesses
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-slate-900">
+            Hear It From <span className="text-gradient">Our Clients</span>
           </h2>
-          <p className="text-xl text-muted-foreground">
-            Listen to what these clients have to say about working with Growth Marketing Media 👇
+          <p className="text-xl text-slate-600">
+            We could talk all day about AI and results — but let's let our clients do the talking instead 👇
           </p>
         </div>
 
@@ -64,7 +64,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.name}
-              className="group relative p-8 rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-500"
+              className="group relative p-8 rounded-2xl bg-white border border-slate-200 hover:border-primary/30 shadow-sm hover:shadow-md transition-all duration-500"
             >
               {/* Stars */}
               <div className="flex gap-1 mb-4">
@@ -74,10 +74,10 @@ const Testimonials = () => {
               </div>
 
               {/* Quote */}
-              <Quote className="w-8 h-8 text-primary/20 mb-4" />
+              <Quote className="w-8 h-8 text-slate-400 mb-4" />
 
               {/* Content */}
-              <p className="text-muted-foreground mb-6 leading-relaxed line-clamp-5">
+              <p className="text-slate-600 mb-6 leading-relaxed line-clamp-5">
                 "{testimonial.content}"
               </p>
 
@@ -89,8 +89,8 @@ const Testimonials = () => {
                   </span>
                 </div>
                 <div>
-                  <div className="font-semibold">{testimonial.name}</div>
-                  <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                  <div className="font-semibold text-slate-900">{testimonial.name}</div>
+                  <div className="text-sm text-slate-500">{testimonial.role}</div>
                 </div>
               </div>
 
@@ -102,10 +102,10 @@ const Testimonials = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <p className="text-2xl font-semibold mb-4">
+          <p className="text-2xl font-semibold mb-4 text-slate-900">
             Ready to become our next success story?
           </p>
-          <p className="text-muted-foreground mb-8">
+          <p className="text-slate-600 mb-8">
             Join hundreds of businesses that have scaled with Growth Marketing Media
           </p>
         </div>
@@ -114,4 +114,5 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default TestimonialsV2;
+

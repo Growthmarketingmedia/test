@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-const Hero = () => {
+const HeroV2 = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden py-12 md:py-0">
     {/* Background Effects */}
     <div className="absolute inset-0 bg-grid opacity-30" />
@@ -51,6 +51,11 @@ const Hero = () => {
           </Button>
         </div>
 
+        {/* Transition to Stats */}
+        <p className="text-sm text-muted-foreground mt-12 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          Don't just take our word for it — here's our track record 👇
+        </p>
+
       </div>
     </div>
 
@@ -58,4 +63,4 @@ const Hero = () => {
     <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
   </section>;
 };
-export default Hero;
+export default HeroV2;

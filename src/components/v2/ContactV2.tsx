@@ -1,26 +1,25 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, ArrowRight, Clock } from "lucide-react";
 
-const Contact = () => {
+const ContactV2 = () => {
   return (
     <section id="contact" className="py-32 relative">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-radial" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
             <div>
               <span className="text-primary font-semibold text-sm tracking-wider uppercase mb-4 block">
-                Get In Touch
+                Let's Make It Happen
               </span>
               <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                Ready To <span className="text-gradient">Explode</span>
-                <br />Your Revenue?
+                Your Turn To <span className="text-gradient">Win</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Schedule a free strategy session and discover how we can help you dominate your market with our proven marketing systems.
+                You've seen what we do, why it works, and what our clients say. The only question left: are you ready to be our next success story?
               </p>
 
               {/* Contact Info */}
@@ -125,4 +124,5 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactV2;
+
