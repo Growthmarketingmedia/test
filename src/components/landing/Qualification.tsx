@@ -74,7 +74,7 @@ const Qualification = () => {
         <div className="text-center">
           <p className="text-muted-foreground mb-4">Sound like you? Let's talk.</p>
           <Button variant="hero" size="xl">
-            Apply For A Strategy Call
+            Book Strategy Call
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>

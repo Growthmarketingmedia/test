@@ -72,7 +72,7 @@ const OldVsNew = () => {
         {/* CTA */}
         <div className="text-center">
           <Button variant="hero" size="xl">
-            Switch To The New Way
+            Book Strategy Call
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>

@@ -43,7 +43,7 @@ const FinalCTA = () => {
 
             {/* CTA Button */}
             <Button variant="hero" size="xl" className="animate-pulse-glow">
-              Book Your Strategy Call
+              Book Strategy Call
               <ArrowRight className="w-5 h-5" />
             </Button>
 
