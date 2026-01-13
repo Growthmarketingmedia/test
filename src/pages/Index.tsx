@@ -18,11 +18,11 @@ const Index = () => {
       <main>
         <Hero />
         <Stats />
-        <AIRevolution />
         <AILeadEngine />
-        <GrowthPath />
+        <AIRevolution />
         <Testimonials />
         <VideoTestimonials />
+        <GrowthPath />
         <Contact />
       </main>
       <Footer />

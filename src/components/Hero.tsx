@@ -51,6 +51,11 @@ const Hero = () => {
           </Button>
         </div>
 
+        {/* Transition to Stats */}
+        <p className="text-sm text-muted-foreground mt-12 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          Don't just take our word for it — here's our track record 👇
+        </p>
+
       </div>
     </div>
 

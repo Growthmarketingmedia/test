@@ -3,18 +3,18 @@ import { Card } from "@/components/ui/card";
 
 const AIRevolution = () => {
     return (
-        <section className="py-24 border-t border-border/50 bg-white">
+        <section className="py-24 border-t border-border/50 bg-background">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
                         <Sparkles className="w-4 h-4 text-primary" />
-                        <span className="text-primary text-sm font-medium">Why AI Changes Everything</span>
+                        <span className="text-primary text-sm font-medium">But Why Does This Work So Well?</span>
                     </div>
-                    <h2 className="font-display text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+                    <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
                         Capitalize On The <span className="text-primary">AI Revolution</span>
                     </h2>
-                    <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-                        Macro trends show AI is transforming lead generation. We're seeing real results from clients—this isn't hype, it's proven.
+                    <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                        The world has changed. Businesses using AI are outperforming competitors 3x over. Here's why our approach gives you an unfair advantage.
                     </p>
                 </div>
 
@@ -36,12 +36,12 @@ const AIRevolution = () => {
                             description: "AI optimization means every dollar works harder, driving down cost per lead."
                         }
                     ].map((feature, index) => (
-                        <Card key={index} className="bg-white border-slate-200 p-8 shadow-sm hover:border-primary/30 hover:shadow-md transition-all group">
+                        <Card key={index} className="bg-card border-border p-8 shadow-sm hover:border-primary/30 hover:shadow-md transition-all group">
                             <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                                 <feature.icon className="w-7 h-7 text-primary" />
                             </div>
-                            <h3 className="font-display text-xl font-semibold text-slate-900 mb-3">{feature.title}</h3>
-                            <p className="text-slate-600">{feature.description}</p>
+                            <h3 className="font-display text-xl font-semibold text-foreground mb-3">{feature.title}</h3>
+                            <p className="text-muted-foreground">{feature.description}</p>
                         </Card>
                     ))}
                 </div>

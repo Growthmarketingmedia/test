@@ -7,11 +7,10 @@ const GrowthPath = () => {
                 {/* Header */}
                 <div className="text-center max-w-4xl mx-auto mb-16">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-                        Choose Your <span className="text-primary">Growth Path</span>
+                        Ready To Join Them? <span className="text-primary">Choose Your Path</span>
                     </h2>
                     <p className="text-xl text-gray-600">
-                        Two powerful options designed to match your budget and goals. Both deliver results
-                        —one just delivers them faster.
+                        You've seen the results. Now it's your turn. Pick the package that fits your budget and goals — both deliver results, one just moves faster.
                     </p>
                 </div>
 
