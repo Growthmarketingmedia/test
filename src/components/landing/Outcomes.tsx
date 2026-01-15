@@ -1,12 +1,12 @@
 import { TrendingUp, Clock, DollarSign, Users, Target, BarChart3 } from "lucide-react";
 
 const outcomes = [
-  { icon: TrendingUp, text: "More qualified leads every month" },
-  { icon: Clock, text: "Faster response time (under 5 seconds)" },
-  { icon: Users, text: "Higher show rate on appointments" },
-  { icon: DollarSign, text: "Lower cost per lead (40% avg reduction)" },
-  { icon: Target, text: "Better lead quality & intent signals" },
-  { icon: BarChart3, text: "Full visibility into your pipeline" },
+  { icon: TrendingUp, text: "More qualified leads every month." },
+  { icon:BarChart3, text: "Predictable growth for your business" },
+  { icon: DollarSign, text: "Reduced cost per lead" },
+  { icon: Clock, text: "More time and energy for your business" },
+  { icon: Target, text: "Full visibility into your marketing and business efforts." },
+  { icon: Users, text: "Professional USA based Team with decades of experience." },
 ];
 
 const Outcomes = () => {
