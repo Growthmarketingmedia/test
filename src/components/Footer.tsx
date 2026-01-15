@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="text-xs text-muted-foreground">Media</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              We explode business revenue with proven digital marketing strategies. 
+              We explode business revenue with proven digital marketing strategies.
               From SEO to AI-powered lead generation, we help businesses dominate their market.
             </p>
             <div className="flex gap-4">
@@ -59,7 +59,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#ai-engine" className="text-muted-foreground hover:text-primary transition-colors">
-                  ChatGPT Lead Engine
+                  Organic Lead Engine
                 </a>
               </li>
             </ul>
