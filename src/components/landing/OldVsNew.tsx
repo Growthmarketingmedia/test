@@ -26,12 +26,12 @@ const OldVsNew = () => {
             
             <div className="space-y-4">
               {[
-                "Paid ads → generic contact form",
-                "Slow follow-up (hours or days)",
-                "Low-intent, unqualified leads",
-                "Missed calls = missed revenue",
-                "Manual qualification wastes time",
-                "No visibility into pipeline",
+                "Expensive Pay Per Click Leads costing you thousands of dollars.",
+                "Shared leads that don't pick up the phone",
+                "Renters who can't actually buy your services",
+                "Heavily reliant on TPAs and referrals",
+                "Zero Data Tracking into what marketing is driving profit.",
+                "Can't scale up revenue when you are ready.",
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <X className="w-5 h-5 text-destructive/70 flex-shrink-0 mt-0.5" />
@@ -50,12 +50,11 @@ const OldVsNew = () => {
             
             <div className="space-y-4">
               {[
-                "AI chat → qualified conversation",
-                "Instant response (under 5 seconds)",
-                "High-intent, pre-qualified leads",
-                "24/7 capture, never miss a lead",
-                "Automatic qualification & scoring",
-                "Full pipeline visibility & analytics",
+                "Quality Leads Generated exclusively for You.",
+                "Tire kickers are pushed out to save you time and energy.",
+                "Picture Perfect Data tracking to see dollars in dollars out.",
+                "Scalable systems to grow with you.",
+                "Predictable Acquisition of new jobs monthly",
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />

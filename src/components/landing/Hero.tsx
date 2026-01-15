@@ -14,40 +14,43 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Main Headline - Specific Outcome */}
+          {/* Audience Label */}
+          <p className="text-lg md:text-xl text-primary font-semibold mb-4 animate-fade-in">
+            Contractors & Builders
+          </p>
+
+          {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight mb-6 animate-slide-up">
-            <span className="text-foreground">Get </span>
-            <span className="text-gradient">20+ Qualified Leads</span>
-            <br />
-            <span className="text-foreground">Every Month On Autopilot</span>
+            <span className="text-foreground">Do you want </span>
+            <span className="text-gradient">more high ticket jobs?</span>
           </h1>
 
-          {/* Subheadline - Who it's for + How */}
+          {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            For home service contractors who want AI-powered lead generation that captures, qualifies, and books appointments 24/7—so you can focus on closing deals.
+            No more shared leads, relying on referrals or having unpredictable seasons. We work 1-1 to implement our "Organic Lead Engine" system that has been generating millions in revenue.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 animate-slide-up" style={{ animationDelay: "0.4s" }}>
             <Button variant="hero" size="xl" className="w-full sm:w-auto">
-              Book Strategy Call
+              Apply Now
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button variant="heroOutline" size="xl" className="w-full sm:w-auto" asChild>
-              <a href="#proof">See Proof</a>
+              <a href="#proof">See Case Studies</a>
             </Button>
           </div>
 
           {/* Trust Elements */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            {/* Rating */}
+            {/* Rating - Google Orange */}
             <div className="flex items-center gap-2">
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-primary text-primary" />
+                  <Star key={i} className="w-5 h-5 fill-[#FBBC04] text-[#FBBC04]" />
                 ))}
               </div>
-              <span className="text-sm text-muted-foreground">5.0 rating from 50+ clients</span>
+              <span className="text-sm text-[#FBBC04] font-medium">5.0 rating from 50+ clients</span>
             </div>
             
             {/* Mini testimonial */}
