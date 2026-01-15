@@ -6,7 +6,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-10 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50" style={{ top: '2.5rem' }}>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -33,7 +33,7 @@ const Header = () => {
               FAQs
             </a>
             <Button variant="hero" size="default">
-              Book Strategy Call
+              Apply Now
             </Button>
           </div>
 
@@ -65,7 +65,7 @@ const Header = () => {
                 FAQs
               </a>
               <Button variant="hero" className="w-full mt-2">
-                Book Strategy Call
+                Apply Now
               </Button>
             </nav>
           </div>

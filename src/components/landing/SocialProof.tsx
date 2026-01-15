@@ -63,12 +63,9 @@ const SocialProof = () => {
               ) : (
                 <>
                   <img
-                    src={`https://img.youtube.com/vi/${heroVideo.id}/maxresdefault.jpg`}
+                    src={`https://img.youtube.com/vi/${heroVideo.id}/hqdefault.jpg`}
                     alt={heroVideo.title}
                     className="absolute inset-0 w-full h-full object-cover"
-                    onError={(e) => {
-                      e.currentTarget.src = `https://img.youtube.com/vi/${heroVideo.id}/hqdefault.jpg`;
-                    }}
                   />
                   <div className="absolute inset-0 bg-background/30" />
                   <button
