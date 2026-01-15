@@ -11,18 +11,6 @@ const faqs = [
     answer: "We offer both organic and paid strategies. Our Accelerator Package includes Google Ads management. However, our AI Lead Engine works with any traffic source—paid or organic.",
   },
   {
-    question: "Do I need to create content myself?",
-    answer: "No. We handle content strategy and creation as part of our service. You focus on running your business; we focus on generating leads.",
-  },
-  {
-    question: "What industries do you work with?",
-    answer: "We specialize in home service contractors: roofing, HVAC, plumbing, restoration, landscaping, electrical, and similar trades. Our systems are optimized for local service businesses.",
-  },
-  {
-    question: "What's the contract length?",
-    answer: "We work on 6-month partnerships because real growth takes time. Quick fixes don't work—we build sustainable systems that compound over time.",
-  },
-  {
     question: "How is this different from other agencies?",
     answer: "We combine AI-powered lead qualification with proven SEO and paid strategies. Most agencies just run ads. We build complete systems that capture, qualify, and convert leads 24/7.",
   },
