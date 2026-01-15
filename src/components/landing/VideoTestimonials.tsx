@@ -46,18 +46,8 @@ const VideoCard = ({ video }: { video: typeof videoTestimonials[0] }) => {
 
   return (
     <div className="bg-card border border-border rounded-xl overflow-hidden hover:border-primary/30 transition-colors">
-      {/* Stars with Google icon */}
-      <div className="p-4 pb-2 flex items-center gap-2">
-        <div className="flex gap-0.5">
-          {[...Array(5)].map((_, i) => (
-            <Star key={i} className="w-4 h-4 fill-[#FBBC04] text-[#FBBC04]" />
-          ))}
-        </div>
-        <GoogleIcon />
-      </div>
-
       {/* Video */}
-      <div className="relative aspect-video mx-4">
+      <div className="relative aspect-video m-4">
         {isPlaying ? (
           <iframe
             src={`https://www.youtube.com/embed/${video.id}?autoplay=1`}
