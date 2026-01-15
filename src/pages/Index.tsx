@@ -26,7 +26,7 @@ const Index = () => {
         <SocialProof />
         <VideoTestimonials />
         <FAQ />
-        <Packages />
+        {/* <Packages /> */}
         <FinalCTA />
       </main>
       <Footer />

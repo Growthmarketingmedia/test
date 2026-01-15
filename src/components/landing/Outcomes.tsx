@@ -2,7 +2,7 @@ import { TrendingUp, Clock, DollarSign, Users, Target, BarChart3 } from "lucide-
 
 const outcomes = [
   { icon: TrendingUp, text: "More qualified leads every month." },
-  { icon:BarChart3, text: "Predictable growth for your business" },
+  { icon: BarChart3, text: "Predictable growth for your business" },
   { icon: DollarSign, text: "Reduced cost per lead" },
   { icon: Clock, text: "More time and energy for your business" },
   { icon: Target, text: "Full visibility into your marketing and business efforts." },
@@ -25,7 +25,7 @@ const Outcomes = () => {
             Results That <span className="text-gradient">Move The Needle</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Here's what our clients consistently experience within the first 90 days.
+            Here is what our clients can expect when working with us.
           </p>
         </div>
 

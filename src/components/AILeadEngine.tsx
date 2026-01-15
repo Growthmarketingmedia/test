@@ -50,7 +50,7 @@ const AILeadEngine = () => {
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             Introducing The
             <br />
-            <span className="text-gradient">ChatGPT Lead Engine</span>
+            <span className="text-gradient">Organic Lead Engine</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             The future of lead generation is here. Our AI-powered chatbot captures, qualifies, and converts visitors into customers while you sleep.
@@ -146,7 +146,7 @@ const AILeadEngine = () => {
                 Transform Your Lead Generation
               </h3>
               <p className="text-muted-foreground mb-6 md:mb-8">
-                Stop losing leads to slow response times. Our ChatGPT Lead Engine works around the clock, engaging every visitor and turning them into qualified opportunities.
+                Stop losing leads to slow response times. Our Organic Lead Engine works around the clock, engaging every visitor and turning them into qualified opportunities.
               </p>
               <Button variant="hero" size="xl">
                 Schedule A Call
