@@ -1,0 +1,13 @@
+{
+    "rating": 4.5,
+    "user_ratings_total": 101,
+    "place_id": "",
+    "reviews": [
+        {
+            "author_name": "Sample User",
+            "relative_time_description": "2 months ago",
+            "rating": 5,
+            "text": "This is a placeholder review until you run the fetch-reviews script!"
+        }
+    ]
+}
